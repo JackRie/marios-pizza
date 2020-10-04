@@ -1,7 +1,9 @@
 body,
 h1,
 h2,
-p {
+h3,
+p,
+ul {
   margin: 0;
   padding: 0;
 }
@@ -198,6 +200,67 @@ a {
   text-align: center;
 }
 
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #404040;
+  color: #fff;
+}
+
+.footer-phone-link {
+  border-bottom: 2px solid #ffffff;
+  color: #fff;
+  font-size: 20px;
+}
+
+.call-now {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.hours {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.daily-hours {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+}
+
+.hours-ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.covid-disclaimer {
+  text-align: center;
+  width: 300px;
+  font-size: 14px;
+  margin: 15px 0;
+}
+
+.social-ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.social-link {
+  color: white;
+  font-size: 25px;
+}
 @media only screen and (min-width: 895px) {
   .nav {
     justify-content: space-between;
@@ -223,5 +286,10 @@ a {
   .logo {
     padding: 0 25px;
     flex: 0;
+  }
+
+  .footer {
+    flex-direction: row;
+    justify-content: space-around;
   }
 }
