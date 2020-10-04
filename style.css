@@ -88,6 +88,10 @@ a {
   z-index: 1;
 }
 
+.hide {
+  display: none;
+}
+
 .mobile-menu-ul {
   list-style: none;
   background-color: #404040;
