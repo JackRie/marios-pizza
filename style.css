@@ -81,6 +81,43 @@ a {
   right: 10px;
 }
 
+.mobile-menu {
+  position: absolute;
+  top: 200px;
+  right: 0px;
+  z-index: 1;
+}
+
+.mobile-menu-ul {
+  list-style: none;
+  background-color: #404040;
+}
+
+.mobile-li {
+  padding: 12px 0;
+}
+
+.mobile-a {
+  color: #fff;
+  padding: 0 25px;
+  font-size: 20px;
+  transition: 0.4s;
+}
+
+.mobile-a:hover {
+  color: #ce0e2d;
+}
+
+.mobile-phone {
+  border-bottom: 2px solid #fff;
+}
+
+.mobile-phone:hover {
+  color: #ce0e2d;
+  border-bottom: 2px solid #ce0e2d;
+  transition: 0.4s;
+}
+
 .dropdown-btn {
   background-color: #404040;
   color: #fff;
@@ -107,6 +144,7 @@ a {
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+  font-size: 18px;
 }
 
 .dropdown-content a:hover {
@@ -133,6 +171,10 @@ a {
 
 .splash-h1 {
   font-size: 52px;
+}
+
+.splash-p {
+  font-size: 20px;
 }
 
 .splash-h1,
@@ -191,7 +233,11 @@ a {
 }
 
 .pick-up-h2 {
-  font-size: 32px;
+  font-size: 42px;
+}
+
+.pick-up-p {
+  font-size: 20px;
 }
 
 .pick-up-h2,
@@ -209,10 +255,21 @@ a {
   color: #fff;
 }
 
+.footer-h3 {
+  font-size: 25px;
+  padding: 10px;
+}
+
 .footer-phone-link {
   border-bottom: 2px solid #ffffff;
   color: #fff;
-  font-size: 20px;
+  font-size: 25px;
+}
+
+.footer-phone-link:hover {
+  color: #ce0e2d;
+  border-bottom: 2px solid #ce0e2d;
+  transition: 0.4s;
 }
 
 .call-now {
@@ -250,6 +307,12 @@ a {
   margin: 15px 0;
 }
 
+.social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .social-ul {
   display: flex;
   justify-content: space-around;
@@ -259,8 +322,15 @@ a {
 
 .social-link {
   color: white;
-  font-size: 25px;
+  font-size: 35px;
+  padding: 10px;
 }
+
+.social-link:hover {
+  color: #ce0e2d;
+  transition: 0.4s;
+}
+
 @media only screen and (min-width: 895px) {
   .nav {
     justify-content: space-between;
