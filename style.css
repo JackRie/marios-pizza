@@ -96,7 +96,7 @@ a {
   list-style: none;
   background-color: #404040;
   padding: 12px 0;
-  min-width: 203px;
+  width: 200px;
 }
 
 .mobile-li {
@@ -333,16 +333,16 @@ a {
     margin: 0;
   }
 
-  .desk-sub-menu-btn {
+  .menu-li {
     position: relative;
   }
 
   .desk-sub-menu-content {
     list-style: none;
     position: absolute;
-    top: 125px;
-    right: 390px;
-    min-width: 203px;
+    top: 35px;
+    left: 15px;
+    width: 200px;
     background-color: #404040;
   }
 
