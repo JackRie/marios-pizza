@@ -6,6 +6,9 @@ const deskSubMenuBtn = document.querySelector(".desk-sub-menu-btn");
 const deskSubMenuContent = document.querySelector(".desk-sub-menu-content");
 menuIcon.addEventListener("click", () => {
   mobileMenu.classList.toggle("hide");
+  if (!subMenuContent.classList.contains("hide")) {
+    subMenuContent.classList.add("hide");
+  }
 });
 
 subMenuBtn.addEventListener("click", () => {
